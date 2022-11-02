@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TecnoJobs/static/css/main.3ba11a60.css",
-    "main.js": "/TecnoJobs/static/js/main.447268b5.js",
+    "main.js": "/TecnoJobs/static/js/main.fb8a30d8.js",
     "index.html": "/TecnoJobs/index.html",
     "main.3ba11a60.css.map": "/TecnoJobs/static/css/main.3ba11a60.css.map",
-    "main.447268b5.js.map": "/TecnoJobs/static/js/main.447268b5.js.map"
+    "main.fb8a30d8.js.map": "/TecnoJobs/static/js/main.fb8a30d8.js.map"
   },
   "entrypoints": [
     "static/css/main.3ba11a60.css",
-    "static/js/main.447268b5.js"
+    "static/js/main.fb8a30d8.js"
   ]
 }
