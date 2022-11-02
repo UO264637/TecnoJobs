@@ -31,6 +31,7 @@ class OfferList extends React.Component {
     }
 
     getSkills = async () => {
+      //console.log("hey")
       const { data, error } = await this.props.supabase
         .from('skill')
         .select('*')
