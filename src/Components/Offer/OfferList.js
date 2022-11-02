@@ -13,7 +13,7 @@ class OfferList extends React.Component {
           selectedTags: []
         }
         this.getOffersSummary();
-        //this.getSkills();
+        this.getSkills();
     }
 
     getOffersSummary = async () => {
