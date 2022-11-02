@@ -1,7 +1,7 @@
 {
-  "name": "supabase-react",
+  "name": "TecnoJobs",
   "version": "0.1.0",
-  "homepage": "https://UO264637.github.io/TecnoJobs"
+  "homepage": "https://UO264637.github.io/TecnoJobs",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

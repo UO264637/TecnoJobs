@@ -118,11 +118,11 @@ class App extends React.Component {
 
     let contentUser = <Text style={{ color:"#ffffff" }}>Login</Text>
     if ( this.state.user != null ){
-      contentUser = <a href="/edit/profile">
+      contentUser = <Link to="/edit/profile">
                       <Avatar style={{ backgroundColor: "#FECBC1", color:"#000000" , marginTop: 12  }} size="large" >
                         { this.state.user.email.charAt(0) }
                       </Avatar>
-                    </a>
+                    </Link>
     }
     else {
       let rightMenuItems = [

@@ -182,7 +182,7 @@ class OfferEditForm extends React.Component {
             rules={[
               { required: true, message: 'Please input a salary!', },
             ]}>
-              <InputNumber name="salary" min={0} value={ this.state.salary } onChange={this.onInputchange}/>
+              <InputNumber prefix="€" name="salary" min={0} value={ this.state.salary } onChange={this.onInputchange}/>
           </Form.Item>
 
           <Form.Item label="Workday"

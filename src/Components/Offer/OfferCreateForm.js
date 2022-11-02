@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, InputNumber, Form, Input } from 'antd';
 import { Card, Tag } from 'antd';
-import { Result, Typography  } from 'antd';
+import { Result  } from 'antd';
 
 class OfferCreateForm extends React.Component {
 
@@ -134,8 +134,7 @@ class OfferCreateForm extends React.Component {
             rules={[
               { required: true, message: 'Please input a salary!', },
             ]}>
-             <InputNumber min={0} />
-             €
+             <InputNumber prefix="€" min={0} />
           </Form.Item>
 
           <Form.Item label="Workday"  name="workday"
